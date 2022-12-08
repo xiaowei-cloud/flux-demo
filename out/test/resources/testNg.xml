@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test">
+        <classes>
+            <class name="ex.example.ng.TestAnnotation"></class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="ex.example.ng.TestAnnotationX">
+                <methods>
+                    <include name="testX"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

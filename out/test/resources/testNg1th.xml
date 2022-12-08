@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test">
+        <groups>
+            <run>
+                <include name="woman"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ex.example.ng.TestGroups"/>
+        </classes>
+    </test>
+</suite>
